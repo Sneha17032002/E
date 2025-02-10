@@ -12,13 +12,24 @@ const Home = () => {
             height={500}
           />
           <div className="card-img-overlay d-flex align-items-center">
-            <div className="container">
-              <h5 className="card-title fs-1 text fw-lighter">
-                Fresh Trends, Just In!
-              </h5>
-              <p className="card-text fs-5 d-none d-sm-block">
-                Discover the latest fashion and jewelry collections, handpicked just for you.
-              </p>
+            <div className="container text-center">
+              <div 
+                className="p-3 mb-2" 
+                style={{ backgroundColor: "pink", display: "inline-block", borderRadius: "10px" }}
+              >
+                <h5 className="card-title fs-1 fw-lighter">
+                  Fresh Trends, Just In!
+                </h5>
+              </div>
+              <br />
+              <div 
+                className="p-3 mt-2" 
+                style={{ backgroundColor: "pink", display: "inline-block", borderRadius: "10px" }}
+              >
+                <p className="card-text fs-5 d-none d-sm-block">
+                  Discover the latest fashion and jewelry collections, handpicked just for you.
+                </p>
+              </div>
             </div>
           </div>
         </div>
